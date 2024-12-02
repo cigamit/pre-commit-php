@@ -23,8 +23,8 @@ else
     echo -e "${bldred}No valid ${title} found!${txtrst}"
     echo "Please have one available as one of the following:"
     echo " * $local_command"
-    echo " * $local_src_command"
     echo " * $vendor_command"
+    echo " * $vender_src_command"
     echo " * $global_command"
     exit 1
 fi

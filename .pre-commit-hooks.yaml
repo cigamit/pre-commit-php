@@ -48,8 +48,8 @@
   language: script
   files: \.php$
 
-- id: reactor
-  name: Reactor
+- id: rector
+  name: Rector
   description: Run Rector against all staged PHP files.
   entry: pre_commit_hooks/php-rector.sh
   language: script

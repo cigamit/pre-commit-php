@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 ################################################################################
 #
-# Bash Reactor
+# Bash Rector
 #
-# This script fails if the Reactor output has the word "ERROR" in it.
+# This script fails if the Rector output has the word "ERROR" in it.
 #
 # Exit 0 if no errors found
 # Exit 1 if errors were found
@@ -17,12 +17,12 @@
 ################################################################################
 
 # Plugin title
-title="Reactor"
+title="Rector"
 
 # Possible command names of this tool
-local_command="reactor.phar"
-vendor_command="vendor/bin/reactor"
-global_command="reactor"
+local_command="rector.phar"
+vendor_command="vendor/bin/rector"
+global_command="rector"
 
 # Print a welcome and locate the exec for this tool
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"

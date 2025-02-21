@@ -51,6 +51,6 @@
 - id: reactor
   name: Reactor
   description: Run Reactor against all staged PHP files.
-  entry: pre_commit_hooks/reactor.sh
+  entry: pre_commit_hooks/php-reactor.sh
   language: script
   files: \.php$

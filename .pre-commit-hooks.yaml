@@ -47,3 +47,10 @@
   entry: pre_commit_hooks/php-stan.sh
   language: script
   files: \.php$
+
+- id: reactor
+  name: Reactor
+  description: Run Reactor against all staged PHP files.
+  entry: pre_commit_hooks/reactor.sh
+  language: script
+  files: \.php$
